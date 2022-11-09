@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'GT Sectra Display';
+    src: url('fonts/GT\ SECTRA\ DISPLAY\ BOLD.ttf');
+}
+
+@font-face {
+    font-family: 'Accord Alternate Light';
+    src: url('fonts/ACCORDALTERNATE-EXTRALIGHTIT.ttf');
+}
+
+@font-face {
+    font-family: 'Accord Alternate';
+    src: url('fonts/ACCORDALTERNATE-LIGHT.ttf');
+}
+
+body {
+    background-color: #000E4E;
+    overflow-x: hidden;
+    padding-right: 10px;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    font-family: 'GT Sectra Display';
+    font-size: 3em;
+}
+
+h4 {
+    color: #00B7F1;
+    font-size: 2em;
+    font-family: 'GT Sectra Display';
+}
+
+p, td {
+    color: #fff;
+    font-size: 1.5em;
+    font-family: 'Accord Alternate';
+}
+
+td {
+    padding-bottom: 10px;
+}
+
+button {
+    color: #fff;
+    background-color: #00B7F1;
+    padding: 10px 20px 10px 20px;
+    font-family: 'Accord Alternate Light';
+}
+
+#sidebar {
+    height: 100vh;
+    float: left;
+    flex: 1;
+    top: 0;
+    position: sticky;
+    margin-right: 20px;
+}
+
+#main {
+    justify-content: center;
+    padding: 10px 10px 0px 10px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#rsvp {
+    margin-bottom:10px;
+}
+
+.hosted {
+    color: #fff;
+    font-family: 'Accord Alternate Light';
+    font-size: 1.5em;
+    font-style: italic;
+    color: #CBCBCB;
+}
+
+.by {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.logos {
+    height: 40px;
+    margin: 10px;
+}
+
+.infoDiv {
+    float: left;
+    width: 40vw;
+}
+
+.time {
+    padding-right: 20px;
+}
+
+.smallText {
+    color: #CBCBCB;
+    font-style: italic;
+    font-size: 1em;
+}
+
+@media screen and (max-width: 635px) {
+  #pic {
+    height: 25vh;
+    float: right;
+  }
+}
+
+@media screen and (min-width: 635px) {
+  #pic {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 25vh;
+  }
+}
