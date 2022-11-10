@@ -11,38 +11,36 @@
         <div>
             <img src="images/Sidebar.png" id="sidebar" />
             <div id="main">
+                <img src="images/Map.png" id="map" />
                 <h1>Retail Exec Exchange & Dinner</h1>
-                <div style="text-align:center;">
+                <button type="button" id="rsvpTop" class="btn" data-toggle="modal" data-target="#rsvpModal">
+                  RSVP Here
+                </button>
+                <div style="margin-left:20px;">
                     <span class="hosted">hosted by </span>
                     <img src="images/BlueYonder.png" class="logos" />
                     <span class="by"> x </span>
                     <img src="images/Starbucks.png" class="logos" />
                 </div>
-                <div style="padding-top:20px;">
+                <div style="padding-top:50px;margin-left:20px;">
                     <p>
-                        Bringing together retail executives of major global retailers for an invite-only dinner experience to network and exchange on maintaining a positive shopper experience in an omni-channel world.
-                    </p>
-                    <p>
-                        Retail has always been about people, but in a world of high inflation, scarce labor and heightened customer expectations, maintaining a positive shopper experience in the market is becoming more difficult.
+                      The premier, invite-only dinner experience for executives attending NRF.
                     </p>
                     <p>
                         Join Blue Yonder CEO Duncan Angove, Starbucks CTO Deb Hall Lefevre, URBN CIO Rob Frieman, PVH CIO Eileen Mahoney, and CNBC’s Ron Insana as they discuss the changing role of the front-line worker in a unified commerce world.
                     </p>
-                    <p>
-                        Get a tour of the exclusive Starbucks Reserve Roastery (one of six in the world).  Network and exchange with your retail peers at this exclusive event.
-                    </p>
                 </div>
-                <div class="row">
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                        <h4>Location</h4>
-                        <p style="margin-bottom:0;">Starbucks Reserve Roastery</p>
+                <div class="row" style="margin-top:50px;">
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                        <h4 style="margin-left:20px;">Location</h4>
+                        <p style="margin-bottom:0;margin-left:20px;">Starbucks Reserve Roastery</p>
                         <p class="smallText" style="padding-bottom:10px;">61 Ninth Ave (9th & 15th)</p>
-                        <h4>Date</h4>
-                        <p>Monday, January 16th</p>
+                        <h4 style="margin-left:20px;">Date</h4>
+                        <p style="margin-left:20px;">Monday, January 16th</p>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                        <h4>Time</h4>
-                        <table>
+                    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+                        <h4 style="margin-left:20px;">Time</h4>
+                        <table style="margin-left:20px;">
                             <tr>
                                 <td class="time">6:00pm</td>
                                 <td>Welcome reception</td>
@@ -60,8 +58,11 @@
                 </div>
                 <div class="row" style="margin-top:10px;">
                   <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                    <button type="button" id="rsvp" class="btn btn-lg" data-toggle="modal" data-target="#rsvpModal">
+                    <button type="button" id="rsvp" class="btn" data-toggle="modal" data-target="#rsvpModal">
                       RSVP Here
+                    </button>
+                    <button type="button" class="btn" id="calBtn">
+                      Add to calendar
                     </button>
                     <br />
                     <p class="smallText">note: this invitation is non-transferable</p>

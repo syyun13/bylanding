@@ -21,9 +21,11 @@ body {
 
 h1 {
     color: #fff;
-    text-align: center;
+    text-align: left;
     font-family: 'GT Sectra Display';
     font-size: 3em;
+    margin-left: 20px;
+    padding-top: 20px;
 }
 
 h4 {
@@ -55,24 +57,56 @@ button {
     flex: 1;
     top: 0;
     position: sticky;
-    margin-right: 20px;
 }
 
 #main {
     justify-content: center;
-    padding: 10px 10px 0px 10px;
+    padding: 0px 10px 0px 0px;
     overflow-y: scroll;
     overflow-x: hidden;
 }
 
 #rsvp {
     margin-bottom:10px;
+    margin-left:20px;
+    margin-top:20px;
+    transition: 0.5s;
+}
+
+#rsvpTop {
+    position:fixed;
+    top:0;
+    right:0;
+    margin-top: 45px;
+    margin-right:20px;
+    transition: 0.5s;
+}
+
+#calBtn {
+    margin-bottom:10px;
+    margin-left:20px;
+    margin-top:20px;
+    background: transparent;
+    border: 1px solid white;
+    transition: 0.5s;
+}
+
+#calBtn:hover {
+    background: white;
+    border: 1px solid white;
+    color: #000E4E;
+}
+
+#map {
+    z-index: -100;
+    position: fixed;
+    width: 100vw;
 }
 
 .hosted {
     color: #fff;
     font-family: 'Accord Alternate Light';
-    font-size: 1.5em;
+    font-size: 1em;
     font-style: italic;
     color: #CBCBCB;
 }
@@ -84,7 +118,7 @@ button {
 }
 
 .logos {
-    height: 40px;
+    height: 30px;
     margin: 10px;
 }
 
@@ -101,6 +135,7 @@ button {
     color: #CBCBCB;
     font-style: italic;
     font-size: 1em;
+    margin-left: 20px;
 }
 
 @media screen and (max-width: 635px) {
