@@ -25,7 +25,7 @@ h1 {
     font-family: 'GT Sectra Display';
     font-size: 3em;
     margin-left: 20px;
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 h4 {
@@ -77,8 +77,8 @@ button {
     position:fixed;
     top:0;
     right:0;
-    margin-top: 45px;
-    margin-right:20px;
+    margin-top: 20px;
+    margin-right: 20px;
     transition: 0.5s;
 }
 
@@ -87,8 +87,10 @@ button {
     margin-left:20px;
     margin-top:20px;
     background: transparent;
+    color: white;
     border: 1px solid white;
     transition: 0.5s;
+    font-family: 'Accord Alternate Light';
 }
 
 #calBtn:hover {
@@ -117,11 +119,6 @@ button {
     font-size: 1.5em;
 }
 
-.logos {
-    height: 30px;
-    margin: 10px;
-}
-
 .infoDiv {
     float: left;
     width: 40vw;
@@ -142,6 +139,7 @@ button {
   #pic {
     height: 25vh;
     float: right;
+    
   }
 }
 
@@ -152,4 +150,18 @@ button {
     right: 0;
     height: 25vh;
   }
+}
+
+@media screen and (max-width: 400px) {
+    .logos {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (min-width: 400px) {
+    .logos {
+        height: 30px;
+        margin: 10px;
+    }
 }
