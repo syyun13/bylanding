@@ -80,6 +80,7 @@ button {
     margin-top: 20px;
     margin-right: 20px;
     transition: 0.5s;
+    z-index: 1000;
 }
 
 #calBtn {
@@ -135,11 +136,34 @@ button {
     margin-left: 20px;
 }
 
+.panelDiv {
+    text-align: center;
+    width: 200px;
+}
+
+.panelImg {
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 20px;
+    object-fit: cover;
+}
+
+.panelText {
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.panelPosition {
+    font-style: italic;
+    font-size: 0.8em;
+}
+
 @media screen and (max-width: 635px) {
   #pic {
     height: 25vh;
-    float: right;
-    
+    float: right; 
   }
 }
 
