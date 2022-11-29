@@ -161,7 +161,7 @@ button {
 
 @media screen and (min-width: 400px) {
     .logos {
-        height: 30px;
+        height: 50px;
         margin: 10px;
     }
 }
